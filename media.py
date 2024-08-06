@@ -8,12 +8,12 @@ suma=sum(lista_calificacion)
 media=suma/calificaciones
 print (f"La media es {media}")
 if media >=90:
-    print(f"La puntuacion es A")
+    print("La puntuacion es A")
 elif media>=80:
-    print(f"La puntuacion es B")
+    print("La puntuacion es B")
 elif media>=70:
-    print(f"La puntuacion es C")
+    print("La puntuacion es C")
 elif media>=60:
-    print(f"La puntuacion es D")
+    print("La puntuacion es D")
 else:
     print("La puntuacion es E")    
