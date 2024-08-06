@@ -7,7 +7,7 @@ formato1=fecha.replace(",", "")
 formato2=formato1.split(" ")
 print(formato2)
 dia=int(formato2[0])
-mes=(formato2[1])
+mes=(formato2[1]).lower()
 año=int(formato2[2])
 numeromes=meses[mes]
 print(f"{dia} {numeromes} {año}")
